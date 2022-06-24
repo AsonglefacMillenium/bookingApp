@@ -1,13 +1,87 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero--photo{
+  align-self: center;
+  max-width: 400px;
+}
+.bold{
+  font-weight: bold;
+}
+
+.grey{
+  color: #918E9B;
+}
+
+.hero--header{
+  margin-bottom: 16px;
+  color: black;
+}
+
+.hero--text{
+  margin-bottom: 16px;
+}
+
+.card{
+  width: 175px;
+  font-size: 12px;
+}
+
+.card-image{
+  width: 100%;
+  border-radius: 9px;
+}
+
+.card--stats{
+  display: flex;
+  align-items: center;
+}
+
+.contact-box{
+  height: 400px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+  
+
+}
+
+
+
+.contact-box img{
+  width: 80%;
+  height: 200px;
+  margin: 20px;
+}
+
+.contact-box h1{
+  color: black;
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.contact-flex{
+  display: flex;
+  font-size: 10px;
+}
+
+.contact-flex img{
+  height: 30px;
+  width: 30px;
+  margin-top: 0px;
+}
+.contact-flex h2{
+  font-size: 10px;
 }
