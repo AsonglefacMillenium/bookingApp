@@ -112,7 +112,7 @@
     font-size: 20px;
 }
 
-optionCounterButton:hover {
+.optionCounterButton:hover {
     cursor: pointer;
 }
 

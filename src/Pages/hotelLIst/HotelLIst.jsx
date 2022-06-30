@@ -1,8 +1,9 @@
 import React from 'react'
+import Navbar from '../../components/Navbar'
 
 const HotelLIst = () => {
   return (
-    <div>HotelLIst</div>
+    <div><Navbar/></div>
   )
 }
 
