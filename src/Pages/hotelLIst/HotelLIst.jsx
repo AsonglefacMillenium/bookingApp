@@ -8,6 +8,7 @@ const HotelLIst = () => {
     <Hotels/>
     
     </div>
+
   )
 }
 
