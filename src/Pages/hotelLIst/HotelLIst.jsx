@@ -1,8 +1,13 @@
 import React from 'react'
+import Navbar from '../../components/Navbar'
+import Hotels from '../hotel/Hotels'
 
 const HotelLIst = () => {
   return (
-    <div>HotelLIst</div>
+    <div><Navbar/>
+    <Hotels/>
+    
+    </div>
   )
 }
 
